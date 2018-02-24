@@ -52,6 +52,9 @@ CREATE (customer3)-[:ORDERED]->(item1)-[:IN_ORDER]->(order4)
 CREATE (customer3)-[:ORDERED]->(item2)-[:IN_ORDER]->(order4)
 RETURN *
 ```
+### Graph:
+
+![graph](https://github.com/arxitekton/DistributedSystems/blob/master/Lab_4_Neo4jBasics/graph.png)
 
 ### Знайти Items які входять в конкретний Order
 ```
