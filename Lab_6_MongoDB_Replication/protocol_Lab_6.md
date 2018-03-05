@@ -34,7 +34,6 @@ docker run -p 30003:27017 --name mongo3 --net lab6-mongo-cluster mongo mongod --
 
 ### Setting up replication
 
-Connect to the mongo shell in any of the containers:
 ```
 docker exec -it mongo1 mongo
 ```
